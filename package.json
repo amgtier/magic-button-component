@@ -1,0 +1,36 @@
+{
+  "name": "magic-button-component",
+  "version": "0.0.1",
+  "description": "A test component to show some magic.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amgtier/magic-button-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amgtier/magic-button-component/issues"
+  },
+  "homepage": "https://github.com/amgtier/magic-button-component#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.0.25",
+    "react": "^18.2.0",
+    "rollup": "^3.3.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "typescript": "^4.9.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module"
+}
